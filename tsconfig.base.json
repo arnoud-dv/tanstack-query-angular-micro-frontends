@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tanstack-query-angular-micro-frontends/isolated-query-client-1": [
+        "libs/isolated-query-client-1/src/index.ts"
+      ],
+      "@tanstack-query-angular-micro-frontends/isolated-query-client-2": [
+        "libs/isolated-query-client-2/src/index.ts"
+      ],
+      "@tanstack-query-angular-micro-frontends/shared-query-client-1": [
+        "libs/shared-query-client-1/src/index.ts"
+      ],
+      "@tanstack-query-angular-micro-frontends/shared-query-client-2": [
+        "libs/shared-query-client-2/src/index.ts"
+      ],
+      "@tanstack-query-angular-micro-frontends/shared-query-client-provider": [
+        "libs/shared-query-client-provider/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
